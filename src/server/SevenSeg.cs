@@ -14,7 +14,7 @@ namespace GG
 
             for (int i = 0; i < 4; i++)
             {
-                if (base.Inputs[i].On)
+                if (Inputs[i].On)
                 {
                     input |= (byte)(1 << i);
                 }
@@ -80,7 +80,7 @@ namespace GG
             for (int i = 0; i < 7; i++)
             {
                 //assign A to the MSB, followed by B, followed by C... etc.
-                base.Outputs[i].On = ((output >> (6 - i)) & 0b00000001) == 1;
+                Outputs[i].On = ((output >> (6 - i)) & 0b00000001) == 1;
             }
         }
     }

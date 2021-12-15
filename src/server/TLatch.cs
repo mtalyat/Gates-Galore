@@ -10,9 +10,9 @@ namespace GG
         protected override void DoLogicUpdate()
         {
             //only toggle when both input and enable are on
-            if (base.Inputs[0].On && base.Inputs[1].On)
+            if (Inputs[0].On && Inputs[1].On)
             {
-                base.Outputs[0].On = !base.Outputs[0].On;
+                Outputs[0].On = !Outputs[0].On;
             }
         }
     }

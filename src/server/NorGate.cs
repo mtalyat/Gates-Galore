@@ -9,7 +9,7 @@ namespace GG
     {
         protected override void DoLogicUpdate()
         {
-            base.Outputs[0].On = !(base.Inputs[0].On | base.Inputs[1].On);
+            Outputs[0].On = !(Inputs[0].On | Inputs[1].On);
         }
     }
 }

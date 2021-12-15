@@ -9,14 +9,14 @@ namespace GG
     {
         protected override void DoLogicUpdate()
         {
-            base.Outputs[0].On = !base.Inputs[2].On & !base.Inputs[1].On & !base.Inputs[0].On;
-            base.Outputs[1].On = !base.Inputs[2].On & !base.Inputs[1].On & base.Inputs[0].On;
-            base.Outputs[2].On = !base.Inputs[2].On & base.Inputs[1].On & !base.Inputs[0].On;
-            base.Outputs[3].On = !base.Inputs[2].On & base.Inputs[1].On & base.Inputs[0].On;
-            base.Outputs[4].On = base.Inputs[2].On & !base.Inputs[1].On & !base.Inputs[0].On;
-            base.Outputs[5].On = base.Inputs[2].On & !base.Inputs[1].On & base.Inputs[0].On;
-            base.Outputs[6].On = base.Inputs[2].On & base.Inputs[1].On & !base.Inputs[0].On;
-            base.Outputs[7].On = base.Inputs[2].On & base.Inputs[1].On & base.Inputs[0].On;
+            Outputs[0].On = !Inputs[2].On & !Inputs[1].On & !Inputs[0].On;
+            Outputs[1].On = !Inputs[2].On & !Inputs[1].On & Inputs[0].On;
+            Outputs[2].On = !Inputs[2].On & Inputs[1].On & !Inputs[0].On;
+            Outputs[3].On = !Inputs[2].On & Inputs[1].On & Inputs[0].On;
+            Outputs[4].On = Inputs[2].On & !Inputs[1].On & !Inputs[0].On;
+            Outputs[5].On = Inputs[2].On & !Inputs[1].On & Inputs[0].On;
+            Outputs[6].On = Inputs[2].On & Inputs[1].On & !Inputs[0].On;
+            Outputs[7].On = Inputs[2].On & Inputs[1].On & Inputs[0].On;
         }
     }
 }

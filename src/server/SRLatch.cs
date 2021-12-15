@@ -9,13 +9,13 @@ namespace GG
     {
         protected override void DoLogicUpdate()
         {
-            if (!base.Inputs[0].On & base.Inputs[1].On)//S = 0, R = 1
+            if (!Inputs[0].On & Inputs[1].On)//S = 0, R = 1
             {
-                base.Outputs[0].On = false;
+                Outputs[0].On = false;
             }
-            else if (base.Inputs[0].On & !base.Inputs[1].On)//S = 1, R = 0
+            else if (Inputs[0].On & !Inputs[1].On)//S = 1, R = 0
             {
-                base.Outputs[0].On = true;
+                Outputs[0].On = true;
             }
 
             //no change otherwise

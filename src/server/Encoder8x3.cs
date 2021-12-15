@@ -9,9 +9,9 @@ namespace GG
     {
         protected override void DoLogicUpdate()
         {
-            base.Outputs[0].On = base.Inputs[1].On | base.Inputs[3].On | base.Inputs[5].On | base.Inputs[7].On;
-            base.Outputs[1].On = base.Inputs[2].On | base.Inputs[3].On | base.Inputs[6].On | base.Inputs[7].On;
-            base.Outputs[2].On = base.Inputs[4].On | base.Inputs[5].On | base.Inputs[6].On | base.Inputs[7].On;
+            Outputs[0].On = Inputs[1].On | Inputs[3].On | Inputs[5].On | Inputs[7].On;
+            Outputs[1].On = Inputs[2].On | Inputs[3].On | Inputs[6].On | Inputs[7].On;
+            Outputs[2].On = Inputs[4].On | Inputs[5].On | Inputs[6].On | Inputs[7].On;
         }
     }
 }

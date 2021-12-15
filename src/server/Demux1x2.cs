@@ -5,11 +5,12 @@ using LogicWorld.Server.Circuitry;
 
 namespace GG
 {
-    public class NAndGate : LogicComponent
+    public class Demux1x2 : LogicComponent
     {
         protected override void DoLogicUpdate()
         {
-            Outputs[0].On = !(Inputs[0].On & Inputs[1].On);
+            Outputs[0].On = !Inputs[0].On & Inputs[1].On;
+            Outputs[1].On = Inputs[0].On & Inputs[1].On;
         }
     }
 }

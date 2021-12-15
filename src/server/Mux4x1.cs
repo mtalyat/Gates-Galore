@@ -9,26 +9,26 @@ namespace GG
     {
         protected override void DoLogicUpdate()
         {
-            if (base.Inputs[1].On)
+            if (Inputs[1].On)
             {
-                if (base.Inputs[0].On)
+                if (Inputs[0].On)
                 {
-                    base.Outputs[0].On = base.Inputs[5].On;
+                    Outputs[0].On = Inputs[5].On;
                 }
                 else
                 {
-                    base.Outputs[0].On = base.Inputs[4].On;
+                    Outputs[0].On = Inputs[4].On;
                 }
             }
             else
             {
-                if (base.Inputs[0].On)
+                if (Inputs[0].On)
                 {
-                    base.Outputs[0].On = base.Inputs[3].On;
+                    Outputs[0].On = Inputs[3].On;
                 }
                 else
                 {
-                    base.Outputs[0].On = base.Inputs[2].On;
+                    Outputs[0].On = Inputs[2].On;
                 }
             }
         }
