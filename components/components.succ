@@ -12,43 +12,51 @@ OR Gate:
                     x: 1
                     y: 1
                     z: 1
+                mesh: null
+                meshType: Cube
                 position:
+                    x: 0
+                    y: 0
+                    z: 0
+                rotation:
                     x: 0
                     y: 0
                     z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
         outputs:
             -
-                rotation:
-                    x: 0
-                    y: 90
-                    z: 90
+                startOn: false
                 position:
                     x: 0
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
     logicCode: GG.OrGate
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -69,6 +77,8 @@ OR Gate:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -76,8 +86,6 @@ OR Gate:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 NAND Gate:
     column: Logic
     category: Gates
@@ -92,43 +100,51 @@ NAND Gate:
                     x: 1
                     y: 1
                     z: 1
+                mesh: null
+                meshType: Cube
                 position:
+                    x: 0
+                    y: 0
+                    z: 0
+                rotation:
                     x: 0
                     y: 0
                     z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.NAndGate
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -149,6 +165,8 @@ NAND Gate:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -156,8 +174,6 @@ NAND Gate:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 XNOR Gate:
     column: Logic
     category: Gates
@@ -172,43 +188,51 @@ XNOR Gate:
                     x: 2
                     y: 1
                     z: 1
+                mesh: null
+                meshType: Cube
                 position:
                     x: 0.5
+                    y: 0
+                    z: 0
+                rotation:
+                    x: 0
                     y: 0
                     z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 0
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 1
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 1
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.XNorGate
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -229,6 +253,8 @@ XNOR Gate:
         allowFineRotation: true
         canBeFlipped: true
         flippingPointHeight: 0.5
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -236,8 +262,6 @@ XNOR Gate:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 NOR Gate:
     column: Logic
     category: Gates
@@ -252,43 +276,51 @@ NOR Gate:
                     x: 1
                     y: 1
                     z: 1
+                mesh: null
+                meshType: Cube
                 position:
+                    x: 0
+                    y: 0
+                    z: 0
+                rotation:
                     x: 0
                     y: 0
                     z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.NorGate
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -309,6 +341,8 @@ NOR Gate:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -316,8 +350,6 @@ NOR Gate:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 SR Latch:
     column: Logic
     category: Latches
@@ -332,43 +364,51 @@ SR Latch:
                     x: 1
                     y: 1
                     z: 2
+                mesh: null
+                meshType: Cube
                 position:
                     x: 0
                     y: 0
                     z: 0.5
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 0
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0
                     y: 1
                     z: 1
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
     logicCode: GG.SRLatch
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 1
@@ -389,6 +429,8 @@ SR Latch:
         allowFineRotation: false
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -396,8 +438,6 @@ SR Latch:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 T Latch:
     column: Logic
     category: Latches
@@ -412,43 +452,51 @@ T Latch:
                     x: 1
                     y: 1
                     z: 2
+                mesh: null
+                meshType: Cube
                 position:
                     x: 0
                     y: 0
                     z: 0.5
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 0
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
-                    x: 0
+                    x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0
                     y: 1
                     z: 0
-        outputs:
-            -
                 rotation:
                     x: 0
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0
                     y: 1
                     z: 1
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
     logicCode: GG.TLatch
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 1
@@ -469,6 +517,8 @@ T Latch:
         allowFineRotation: false
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -476,8 +526,6 @@ T Latch:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Mux 2x1:
     column: Logic
     category: Multiplexers
@@ -492,53 +540,61 @@ Mux 2x1:
                     x: 1
                     y: 1
                     z: 1
+                mesh: null
+                meshType: Cube
                 position:
+                    x: 0
+                    y: 0
+                    z: 0
+                rotation:
                     x: 0
                     y: 0
                     z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: 0
-                    y: 0
-                    z: 90
                 position:
                     x: -0.5
                     y: 0.5
                     z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Mux2x1
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -559,6 +615,8 @@ Mux 2x1:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -566,8 +624,6 @@ Mux 2x1:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Mux 4x1:
     column: Logic
     category: Multiplexers
@@ -582,83 +638,91 @@ Mux 4x1:
                     x: 2
                     y: 1
                     z: 1
+                mesh: null
+                meshType: Cube
                 position:
                     x: 0.5
+                    y: 0
+                    z: 0
+                rotation:
+                    x: 0
                     y: 0
                     z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: 0
-                    y: 0
-                    z: 90
                 position:
                     x: -0.5
                     y: 0.5
                     z: 0.25
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
                     z: 90
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: -0.25
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 1.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0.5
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Mux4x1
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -679,6 +743,8 @@ Mux 4x1:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -686,8 +752,6 @@ Mux 4x1:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Mux 8x1:
     column: Logic
     category: Multiplexers
@@ -702,133 +766,141 @@ Mux 8x1:
                     x: 4
                     y: 1
                     z: 1
+                mesh: null
+                meshType: Cube
                 position:
                     x: 1.5
+                    y: 0
+                    z: 0
+                rotation:
+                    x: 0
                     y: 0
                     z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: 0
-                    y: 0
-                    z: 90
                 position:
                     x: -0.5
                     y: 0.5
                     z: 0.333
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
                     z: 90
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: 0
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
                     z: 90
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: -0.333
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 3.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 2.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 2.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 1.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 1.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 1.5
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Mux8x1
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -849,6 +921,8 @@ Mux 8x1:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -856,8 +930,6 @@ Mux 8x1:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Demux 1x2:
     column: Logic
     category: Multiplexers
@@ -872,52 +944,61 @@ Demux 1x2:
                     x: 1
                     y: 1
                     z: 1
+                mesh: null
+                meshType: Cube
                 position:
+                    x: 0
+                    y: 0
+                    z: 0
+                rotation:
                     x: 0
                     y: 0
                     z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: 0
-                    y: 0
-                    z: 90
                 position:
                     x: -0.5
                     y: 0.5
                     z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 0
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: -0.25
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Demux1x2
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -938,6 +1019,8 @@ Demux 1x2:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -945,8 +1028,6 @@ Demux 1x2:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Demux 2x4:
     column: Logic
     category: Multiplexers
@@ -961,80 +1042,91 @@ Demux 2x4:
                     x: 2
                     y: 1
                     z: 1
+                mesh: null
+                meshType: Cube
                 position:
                     x: 0.5
+                    y: 0
+                    z: 0
+                rotation:
+                    x: 0
                     y: 0
                     z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: 0
-                    y: 0
-                    z: 90
                 position:
                     x: -0.5
                     y: 0.5
                     z: 0.25
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
                     z: 90
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: -0.25
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 0.5
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 1.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: -0.25
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Demux2x4
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -1055,6 +1147,8 @@ Demux 2x4:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -1062,8 +1156,6 @@ Demux 2x4:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Demux 3x8:
     column: Logic
     category: Multiplexers
@@ -1078,126 +1170,141 @@ Demux 3x8:
                     x: 4
                     y: 1
                     z: 1
+                mesh: null
+                meshType: Cube
                 position:
                     x: 1.5
+                    y: 0
+                    z: 0
+                rotation:
+                    x: 0
                     y: 0
                     z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: 0
-                    y: 0
-                    z: 90
                 position:
                     x: -0.5
                     y: 0.5
                     z: 0.333
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
                     z: 90
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: 0
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
                     z: 90
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: -0.333
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 1.5
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 3.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 2.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 2.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 1.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 1.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: -0.25
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Demux3x8
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -1218,6 +1325,8 @@ Demux 3x8:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -1225,8 +1334,6 @@ Demux 3x8:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Encoder 4x2:
     column: Logic
     category: Encoders Decoders
@@ -1241,72 +1348,81 @@ Encoder 4x2:
                     x: 2
                     y: 1
                     z: 1
+                mesh: null
+                meshType: Cube
                 position:
                     x: 0.5
+                    y: 0
+                    z: 0
+                rotation:
+                    x: 0
                     y: 0
                     z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 1.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.25
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Encoder4x2
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -1327,6 +1443,8 @@ Encoder 4x2:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -1334,8 +1452,6 @@ Encoder 4x2:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Encoder 8x3:
     column: Logic
     category: Encoders Decoders
@@ -1350,121 +1466,131 @@ Encoder 8x3:
                     x: 4
                     y: 1
                     z: 1
+                mesh: null
+                meshType: Cube
                 position:
                     x: 1.5
+                    y: 0
+                    z: 0
+                rotation:
+                    x: 0
                     y: 0
                     z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 3.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 2.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 2.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 1.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 1.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 2
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 1.5
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 1
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Encoder8x3
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -1485,6 +1611,8 @@ Encoder 8x3:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -1492,8 +1620,6 @@ Encoder 8x3:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Decoder 2x4:
     column: Logic
     category: Encoders Decoders
@@ -1508,70 +1634,81 @@ Decoder 2x4:
                     x: 2
                     y: 1
                     z: 1
+                mesh: null
+                meshType: Cube
                 position:
                     x: 0.5
+                    y: 0
+                    z: 0
+                rotation:
+                    x: 0
                     y: 0
                     z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 0.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 1.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: -0.25
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Decoder2x4
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -1592,6 +1729,8 @@ Decoder 2x4:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -1599,8 +1738,6 @@ Decoder 2x4:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Decoder 3x8:
     column: Logic
     category: Encoders Decoders
@@ -1615,116 +1752,131 @@ Decoder 3x8:
                     x: 4
                     y: 1
                     z: 1
+                mesh: null
+                meshType: Cube
                 position:
                     x: 1.5
                     y: 0
                     z: 0
+                rotation:
+                    x: 0.00002177158
+                    y: -0.000001537165
+                    z: -0.00000000000002422264
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 2
                     y: 0.5
                     z: -0.5
+                rotation:
+                    x: 270.0198
+                    y: -0.000001537166
+                    z: 0
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 1.5
                     y: 0.5
                     z: -0.5
+                rotation:
+                    x: 270.0198
+                    y: -0.000001537166
+                    z: 0
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 1
                     y: 0.5
                     z: -0.5
+                rotation:
+                    x: 270.0198
+                    y: -0.000001537166
+                    z: 0
         outputs:
             -
-                rotation:
-                    x: 90
-                    y: 0
-                    z: 0
+                startOn: false
                 position:
                     x: 3.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
-                    y: 0
+                    y: -0.000001537164
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 2.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
-                    y: 0
+                    y: -0.000001537164
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 2.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
-                    y: 0
+                    y: -0.000001537164
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 1.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
-                    y: 0
+                    y: -0.000001537164
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 1.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
-                    y: 0
+                    y: -0.000001537164
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
-                    y: 0
+                    y: -0.000001537164
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
-                    y: 0
+                    y: -0.000001537164
                     z: 0
+            -
+                startOn: false
                 position:
                     x: -0.25
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: -0.000001537164
+                    z: 0
     logicCode: GG.Decoder3x8
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -1745,6 +1897,8 @@ Decoder 3x8:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -1752,8 +1906,6 @@ Decoder 3x8:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Seven Segment Decoder:
     column: Miscellaneous
     category: null
@@ -1768,117 +1920,131 @@ Seven Segment Decoder:
                     x: 2
                     y: 3
                     z: 1
+                mesh: null
+                meshType: Cube
                 position:
                     x: 0.5
+                    y: 0
+                    z: 0
+                rotation:
+                    x: 0
                     y: 0
                     z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 1.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0.5
                     y: 2.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 1
                     y: 2
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 1
                     y: 1
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.5
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0
                     y: 1
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0
                     y: 2
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.5
                     y: 1.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.SevenSeg
     logicScript: null
+    clientCode: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -1899,6 +2065,8 @@ Seven Segment Decoder:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -1906,5 +2074,3 @@ Seven Segment Decoder:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
