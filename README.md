@@ -1,6 +1,6 @@
 # Gates Galore
 
-Gates Galore is a mod for [Logic World](https://logicworld.net/), which adds several key gates to the game that have not yet been added to the core game. 
+Gates Galore is a mod for [Logic World](https://logicworld.net/), which adds several gates to the game that have not yet been added to the core game. These gates are not necessary to the core game, but having them may significantly reduce the amount of complexity of projects.
 
 ## Features
 
