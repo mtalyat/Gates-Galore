@@ -16,39 +16,43 @@ OR Gate:
                     x: 0
                     y: 0
                     z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
         outputs:
             -
-                rotation:
-                    x: 0
-                    y: 90
-                    z: 90
+                startOn: false
                 position:
                     x: 0
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 0
+                    y: 90
+                    z: 90
     logicCode: GG.OrGate
-    logicScript: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -69,6 +73,8 @@ OR Gate:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -76,8 +82,6 @@ OR Gate:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 NAND Gate:
     column: Logic
     category: Gates
@@ -96,39 +100,43 @@ NAND Gate:
                     x: 0
                     y: 0
                     z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.NAndGate
-    logicScript: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -149,6 +157,8 @@ NAND Gate:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -156,8 +166,6 @@ NAND Gate:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 XNOR Gate:
     column: Logic
     category: Gates
@@ -176,39 +184,45 @@ XNOR Gate:
                     x: 0.5
                     y: 0
                     z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 0
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 1
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 1
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.XNorGate
-    logicScript: null
+    
+    
     placingRules:
         offsetDimensions:
             x: 2
@@ -229,6 +243,8 @@ XNOR Gate:
         allowFineRotation: true
         canBeFlipped: true
         flippingPointHeight: 0.5
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -236,8 +252,6 @@ XNOR Gate:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 NOR Gate:
     column: Logic
     category: Gates
@@ -256,39 +270,45 @@ NOR Gate:
                     x: 0
                     y: 0
                     z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.NorGate
-    logicScript: null
+    
+    
     placingRules:
         offsetDimensions:
             x: 2
@@ -309,6 +329,8 @@ NOR Gate:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -316,8 +338,6 @@ NOR Gate:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 SR Latch:
     column: Logic
     category: Latches
@@ -336,39 +356,45 @@ SR Latch:
                     x: 0
                     y: 0
                     z: 0.5
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 0
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0
                     y: 1
                     z: 1
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
     logicCode: GG.SRLatch
-    logicScript: null
+    
+    
     placingRules:
         offsetDimensions:
             x: 1
@@ -389,6 +415,8 @@ SR Latch:
         allowFineRotation: false
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -396,8 +424,6 @@ SR Latch:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 T Latch:
     column: Logic
     category: Latches
@@ -416,39 +442,43 @@ T Latch:
                     x: 0
                     y: 0
                     z: 0.5
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 0
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
-                    x: 0
+                    x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0
                     y: 1
                     z: 0
-        outputs:
-            -
                 rotation:
                     x: 0
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0
                     y: 1
                     z: 1
-    logicCode: GG.TLatch
-    logicScript: null
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
+    logicCode: GG.TLatch    
     placingRules:
         offsetDimensions:
             x: 1
@@ -469,6 +499,8 @@ T Latch:
         allowFineRotation: false
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -476,8 +508,6 @@ T Latch:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Mux 2x1:
     column: Logic
     category: Multiplexers
@@ -496,49 +526,55 @@ Mux 2x1:
                     x: 0
                     y: 0
                     z: 0
-        inputs:
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
-                    z: 90
+                    z: 0
+        inputs:
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Mux2x1
-    logicScript: null
+    
+    
     placingRules:
         offsetDimensions:
             x: 2
@@ -559,6 +595,8 @@ Mux 2x1:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -566,8 +604,6 @@ Mux 2x1:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Mux 4x1:
     column: Logic
     category: Multiplexers
@@ -586,79 +622,85 @@ Mux 4x1:
                     x: 0.5
                     y: 0
                     z: 0
-        inputs:
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
-                    z: 90
+                    z: 0
+        inputs:
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: 0.25
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
                     z: 90
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: -0.25
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 1.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0.5
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Mux4x1
-    logicScript: null
+    
+    
     placingRules:
         offsetDimensions:
             x: 2
@@ -679,6 +721,8 @@ Mux 4x1:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -686,8 +730,6 @@ Mux 4x1:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Mux 8x1:
     column: Logic
     category: Multiplexers
@@ -706,129 +748,135 @@ Mux 8x1:
                     x: 1.5
                     y: 0
                     z: 0
-        inputs:
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
-                    z: 90
+                    z: 0
+        inputs:
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: 0.333
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
                     z: 90
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: 0
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
                     z: 90
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: -0.333
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 3.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 2.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 2.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 1.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 1.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 1.5
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Mux8x1
-    logicScript: null
+    
+    
     placingRules:
         offsetDimensions:
             x: 2
@@ -849,6 +897,8 @@ Mux 8x1:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -856,8 +906,267 @@ Mux 8x1:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
+Mux 16x1:
+    column: Logic
+    category: Multiplexers
+    prefab:
+        blocks:
+            -
+                color:
+                    r: 49
+                    g: 82
+                    b: 49
+                scale:
+                    x: 8
+                    y: 1
+                    z: 2
+                position:
+                    x: 3.5
+                    y: 0
+                    z: 0.5
+        inputs:
+            -
+                length: 0.6
+                position:
+                    x: -0.5
+                    y: 0.5
+                    z: 1.25
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
+            -
+                length: 0.6
+                position:
+                    x: -0.5
+                    y: 0.5
+                    z: 0.75
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
+            -
+                length: 0.6
+                position:
+                    x: -0.5
+                    y: 0.5
+                    z: 0.25
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
+            -
+                length: 0.6
+                position:
+                    x: -0.5
+                    y: 0.5
+                    z: -0.25
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
+            -
+                length: 0.6
+                position:
+                    x: 7.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 6.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 6.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 5.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 5.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 4.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 4.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 3.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 3.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 2.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 2.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 1.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 1.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 0.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 0.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -0.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+        outputs:
+            -
+                startOn: false
+                position:
+                    x: 3.5
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+    logicCode: GG.Mux16x1
+    
+    placingRules:
+        offsetDimensions:
+            x: 2
+            y: 1
+        defaultOffset:
+            x: 0
+            y: 0
+        offsetScale:
+            x: 1
+            y: 1
+        cornerMidpoint:
+            x: 0
+            y: 0
+        gridPlacingDimensions:
+            x: 8
+            y: 2
+        allowWorldRotation: true
+        allowFineRotation: true
+        canBeFlipped: false
+        flippingPointHeight: -0.25
         gridPositionsAreRelative: false
         enableEdgeExtensions: false
+        primaryGridPositions:
+            -
+                x: 0.5
+                y: 0.5
+        secondaryGridPositions:
+        primaryEdgePositions:
+        secondaryEdgePositions:
 Demux 1x2:
     column: Logic
     category: Multiplexers
@@ -876,48 +1185,55 @@ Demux 1x2:
                     x: 0
                     y: 0
                     z: 0
-        inputs:
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
-                    z: 90
+                    z: 0
+        inputs:
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 0
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: -0.25
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Demux1x2
-    logicScript: null
+    
+    
     placingRules:
         offsetDimensions:
             x: 2
@@ -938,6 +1254,8 @@ Demux 1x2:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -945,8 +1263,6 @@ Demux 1x2:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Demux 2x4:
     column: Logic
     category: Multiplexers
@@ -965,76 +1281,85 @@ Demux 2x4:
                     x: 0.5
                     y: 0
                     z: 0
-        inputs:
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
-                    z: 90
+                    z: 0
+        inputs:
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: 0.25
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
                     z: 90
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: -0.25
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 0.5
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 1.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: -0.25
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Demux2x4
-    logicScript: null
+    
+    
     placingRules:
         offsetDimensions:
             x: 2
@@ -1055,6 +1380,8 @@ Demux 2x4:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -1062,8 +1389,6 @@ Demux 2x4:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Demux 3x8:
     column: Logic
     category: Multiplexers
@@ -1082,122 +1407,135 @@ Demux 3x8:
                     x: 1.5
                     y: 0
                     z: 0
-        inputs:
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
-                    z: 90
+                    z: 0
+        inputs:
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: 0.333
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
                     z: 90
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: 0
-            -
-                length: 0.6
                 rotation:
                     x: 0
                     y: 0
                     z: 90
+            -
+                length: 0.6
                 position:
                     x: -0.5
                     y: 0.5
                     z: -0.333
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 1.5
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 3.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 2.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 2.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 1.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 1.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: -0.25
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Demux3x8
-    logicScript: null
+    
+    
     placingRules:
         offsetDimensions:
             x: 2
@@ -1218,6 +1556,8 @@ Demux 3x8:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -1225,8 +1565,268 @@ Demux 3x8:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
+Demux 4x16:
+    column: Logic
+    category: Multiplexers
+    prefab:
+        blocks:
+            -
+                color:
+                    r: 100
+                    g: 135
+                    b: 100
+                scale:
+                    x: 8
+                    y: 1
+                    z: 2
+                position:
+                    x: 3.5
+                    y: 0
+                    z: 0.5
+        inputs:
+            -
+                length: 0.6
+                position:
+                    x: -0.5
+                    y: 0.5
+                    z: 1.25
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
+            -
+                length: 0.6
+                position:
+                    x: -0.5
+                    y: 0.5
+                    z: 0.75
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
+            -
+                length: 0.6
+                position:
+                    x: -0.5
+                    y: 0.5
+                    z: 0.25
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
+            -
+                length: 0.6
+                position:
+                    x: -0.5
+                    y: 0.5
+                    z: -0.25
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
+            -
+                length: 0.6
+                position:
+                    x: 3.5
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+        outputs:
+            -
+                startOn: false
+                position:
+                    x: 7.25
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 6.75
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 6.25
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 5.75
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 5.25
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 4.75
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 4.25
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 3.75
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 3.25
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 2.75
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 2.25
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 1.75
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 1.25
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 0.75
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 0.25
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: -0.25
+                    y: 0.5
+                    z: 1.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+    logicCode: GG.Demux4x16
+    
+    
+    placingRules:
+        offsetDimensions:
+            x: 2
+            y: 1
+        defaultOffset:
+            x: 0
+            y: 0
+        offsetScale:
+            x: 1
+            y: 1
+        cornerMidpoint:
+            x: 0
+            y: 0
+        gridPlacingDimensions:
+            x: 4
+            y: 2
+        allowWorldRotation: true
+        allowFineRotation: true
+        canBeFlipped: false
+        flippingPointHeight: -0.25
         gridPositionsAreRelative: false
         enableEdgeExtensions: false
+        primaryGridPositions:
+            -
+                x: 0.5
+                y: 0.5
+        secondaryGridPositions:
+        primaryEdgePositions:
+        secondaryEdgePositions:
 Encoder 4x2:
     column: Logic
     category: Encoders Decoders
@@ -1245,68 +1845,75 @@ Encoder 4x2:
                     x: 0.5
                     y: 0
                     z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 1.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.25
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Encoder4x2
-    logicScript: null
+    
+    
     placingRules:
         offsetDimensions:
             x: 2
@@ -1327,6 +1934,8 @@ Encoder 4x2:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -1334,8 +1943,6 @@ Encoder 4x2:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Encoder 8x3:
     column: Logic
     category: Encoders Decoders
@@ -1354,117 +1961,125 @@ Encoder 8x3:
                     x: 1.5
                     y: 0
                     z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 3.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 2.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 2.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 1.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 1.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 2
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 1.5
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 1
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Encoder8x3
-    logicScript: null
+    
+    
     placingRules:
         offsetDimensions:
             x: 2
@@ -1485,6 +2100,8 @@ Encoder 8x3:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -1492,8 +2109,258 @@ Encoder 8x3:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
+Encoder 16x4:
+    column: Logic
+    category: Encoders Decoders
+    prefab:
+        blocks:
+            -
+                color:
+                    r: 50
+                    g: 47
+                    b: 107
+                scale:
+                    x: 8
+                    y: 1
+                    z: 1
+                position:
+                    x: 3.5
+                    y: 0
+                    z: 0
+        inputs:
+            -
+                length: 0.6
+                position:
+                    x: 7.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 6.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 6.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 5.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 5.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 4.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 4.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 3.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 3.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 2.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 2.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 1.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 1.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 0.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 0.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -0.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+        outputs:
+            -
+                startOn: false
+                position:
+                    x: 4.25
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 3.75
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 3.25
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 2.75
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+    logicCode: GG.Encoder16x4
+    
+    
+    placingRules:
+        offsetDimensions:
+            x: 2
+            y: 1
+        defaultOffset:
+            x: 0
+            y: 0
+        offsetScale:
+            x: 1
+            y: 1
+        cornerMidpoint:
+            x: 0
+            y: 0
+        gridPlacingDimensions:
+            x: 8
+            y: 1
+        allowWorldRotation: true
+        allowFineRotation: true
+        canBeFlipped: false
+        flippingPointHeight: -0.25
         gridPositionsAreRelative: false
         enableEdgeExtensions: false
+        primaryGridPositions:
+            -
+                x: 0.5
+                y: 0.5
+        secondaryGridPositions:
+        primaryEdgePositions:
+        secondaryEdgePositions:
 Decoder 2x4:
     column: Logic
     category: Encoders Decoders
@@ -1512,66 +2379,75 @@ Decoder 2x4:
                     x: 0.5
                     y: 0
                     z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 0.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 1.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: -0.25
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Decoder2x4
-    logicScript: null
+    
+    
     placingRules:
         offsetDimensions:
             x: 2
@@ -1592,6 +2468,8 @@ Decoder 2x4:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -1599,8 +2477,6 @@ Decoder 2x4:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
-        gridPositionsAreRelative: false
-        enableEdgeExtensions: false
 Decoder 3x8:
     column: Logic
     category: Encoders Decoders
@@ -1619,112 +2495,125 @@ Decoder 3x8:
                     x: 1.5
                     y: 0
                     z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 2
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 1.5
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 1
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 3.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 2.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 2.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 1.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 1.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.75
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.25
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: -0.25
                     y: 0.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.Decoder3x8
-    logicScript: null
+    
+    
     placingRules:
         offsetDimensions:
             x: 2
@@ -1745,6 +2634,8 @@ Decoder 3x8:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -1752,8 +2643,256 @@ Decoder 3x8:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
+Decoder 4x16:
+    column: Logic
+    category: Encoders Decoders
+    prefab:
+        blocks:
+            -
+                color:
+                    r: 100
+                    g: 96
+                    b: 158
+                scale:
+                    x: 8
+                    y: 1
+                    z: 1
+                position:
+                    x: 3.5
+                    y: 0
+                    z: 0
+        inputs:
+            -
+                length: 0.6
+                position:
+                    x: 4.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 3.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 3.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 2.75
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+        outputs:
+            -
+                startOn: false
+                position:
+                    x: 7.25
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 6.75
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 6.25
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 5.75
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 5.25
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 4.75
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 4.25
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 3.75
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 3.25
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 2.75
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 2.25
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 1.75
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 1.25
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 0.75
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 0.25
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: -0.25
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+    logicCode: GG.Decoder4x16    
+    placingRules:
+        offsetDimensions:
+            x: 2
+            y: 1
+        defaultOffset:
+            x: 0
+            y: 0
+        offsetScale:
+            x: 1
+            y: 1
+        cornerMidpoint:
+            x: 0
+            y: 0
+        gridPlacingDimensions:
+            x: 8
+            y: 1
+        allowWorldRotation: true
+        allowFineRotation: true
+        canBeFlipped: false
+        flippingPointHeight: -0.25
         gridPositionsAreRelative: false
         enableEdgeExtensions: false
+        primaryGridPositions:
+            -
+                x: 0.5
+                y: 0.5
+        secondaryGridPositions:
+        primaryEdgePositions:
+        secondaryEdgePositions:
 Seven Segment Decoder:
     column: Miscellaneous
     category: null
@@ -1772,113 +2911,123 @@ Seven Segment Decoder:
                     x: 0.5
                     y: 0
                     z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
         inputs:
             -
                 length: 0.6
-                rotation:
-                    x: -90
-                    y: 0
-                    z: 0
                 position:
                     x: 1.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.75
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: 0.25
                     y: 0.5
                     z: -0.5
-            -
-                length: 0.6
                 rotation:
                     x: -90
                     y: 0
                     z: 0
+            -
+                length: 0.6
                 position:
                     x: -0.25
                     y: 0.5
                     z: -0.5
-        outputs:
-            -
                 rotation:
-                    x: 90
+                    x: -90
                     y: 0
                     z: 0
+        outputs:
+            -
+                startOn: false
                 position:
                     x: 0.5
                     y: 2.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 1
                     y: 2
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 1
                     y: 1
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.5
                     y: 0.5
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0
                     y: 1
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0
                     y: 2
                     z: 0.5
-            -
                 rotation:
                     x: 90
                     y: 0
                     z: 0
+            -
+                startOn: false
                 position:
                     x: 0.5
                     y: 1.5
                     z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
     logicCode: GG.SevenSeg
-    logicScript: null
     placingRules:
         offsetDimensions:
             x: 2
@@ -1899,6 +3048,8 @@ Seven Segment Decoder:
         allowFineRotation: true
         canBeFlipped: false
         flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
         primaryGridPositions:
             -
                 x: 0.5
@@ -1906,5 +3057,199 @@ Seven Segment Decoder:
         secondaryGridPositions:
         primaryEdgePositions:
         secondaryEdgePositions:
+Half Adder:
+    column: Arithmetic
+    prefab:
+        blocks:
+            -
+                color:
+                    r: 255
+                    g: 132
+                    b: 62
+                scale:
+                    x: 1
+                    y: 1
+                    z: 1
+                position:
+                    x: 0
+                    y: 0
+                    z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
+        inputs:
+            -
+                length: 0.6
+                position:
+                    x: 0.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: -0.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+        outputs:
+            -
+                startOn: false
+                position:
+                    x: -0.5
+                    y: 0.5
+                    z: 0
+                rotation:
+                    x: 90
+                    y: -90
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 0
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+    logicCode: GG.HalfAdder
+    placingRules:
+        offsetDimensions:
+            x: 2
+            y: 1
+        defaultOffset:
+            x: 0
+            y: 0
+        offsetScale:
+            x: 1
+            y: 1
+        cornerMidpoint:
+            x: 0
+            y: 0
+        gridPlacingDimensions:
+            x: 1
+            y: 1
+        allowWorldRotation: true
+        allowFineRotation: true
+        canBeFlipped: false
+        flippingPointHeight: -0.25
         gridPositionsAreRelative: false
         enableEdgeExtensions: false
+        primaryGridPositions:
+            -
+                x: 0.5
+                y: 0.5
+        secondaryGridPositions:
+        primaryEdgePositions:
+        secondaryEdgePositions:
+Full Adder:
+    column: Arithmetic
+    prefab:
+        blocks:
+            -
+                color:
+                    r: 255
+                    g: 91
+                    b: 0
+                scale:
+                    x: 2
+                    y: 1
+                    z: 1
+                position:
+                    x: 0.5
+                    y: 0
+                    z: 0
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 0
+        inputs:
+            -
+                length: 0.6
+                position:
+                    x: -0.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 0.25
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+            -
+                length: 0.6
+                position:
+                    x: 1
+                    y: 0.5
+                    z: -0.5
+                rotation:
+                    x: -90
+                    y: 0
+                    z: 0
+        outputs:
+            -
+                startOn: false
+                position:
+                    x: 1
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+            -
+                startOn: false
+                position:
+                    x: 0
+                    y: 0.5
+                    z: 0.5
+                rotation:
+                    x: 90
+                    y: 0
+                    z: 0
+    logicCode: GG.FullAdder
+    placingRules:
+        offsetDimensions:
+            x: 2
+            y: 1
+        defaultOffset:
+            x: 0
+            y: 0
+        offsetScale:
+            x: 1
+            y: 1
+        cornerMidpoint:
+            x: 0
+            y: 0
+        gridPlacingDimensions:
+            x: 2
+            y: 1
+        allowWorldRotation: true
+        allowFineRotation: true
+        canBeFlipped: false
+        flippingPointHeight: -0.25
+        gridPositionsAreRelative: false
+        enableEdgeExtensions: false
+        primaryGridPositions:
+            -
+                x: 0.5
+                y: 0.5
+        secondaryGridPositions:
+        primaryEdgePositions:
+        secondaryEdgePositions:

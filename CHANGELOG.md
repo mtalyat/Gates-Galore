@@ -7,6 +7,7 @@
   * Demux 1x16
   * Encoder 16x4
   * Decoder 4x16
+* Added Full and Half Adders.
 
 ## 1.1
 
