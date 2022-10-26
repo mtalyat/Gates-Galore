@@ -5,7 +5,7 @@ using LogicWorld.Server.Circuitry;
 
 namespace GG
 {
-    public class Demux3x8 : LogicComponent
+    public class Demux1x8 : LogicComponent
     {
         protected override void DoLogicUpdate()
         {
