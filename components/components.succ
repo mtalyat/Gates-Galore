@@ -624,7 +624,7 @@ Mux 4x1:
                 position:
                     x: -0.5
                     y: 0.5
-                    z: 0.25
+                    z: -0.25
                 rotation:
                     x: 0
                     y: 0
@@ -634,7 +634,7 @@ Mux 4x1:
                 position:
                     x: -0.5
                     y: 0.5
-                    z: -0.25
+                    z: 0.25
                 rotation:
                     x: 0
                     y: 0
@@ -748,7 +748,7 @@ Mux 8x1:
                 position:
                     x: -0.5
                     y: 0.5
-                    z: 0.333
+                    z: -0.333
                 rotation:
                     x: 0
                     y: 0
@@ -768,7 +768,7 @@ Mux 8x1:
                 position:
                     x: -0.5
                     y: 0.5
-                    z: -0.333
+                    z: 0.333
                 rotation:
                     x: 0
                     y: 0
@@ -922,17 +922,7 @@ Mux 16x1:
                 position:
                     x: -0.5
                     y: 0.5
-                    z: 1.25
-                rotation:
-                    x: 0
-                    y: 0
-                    z: 90
-            -
-                length: 0.6
-                position:
-                    x: -0.5
-                    y: 0.5
-                    z: 0.75
+                    z: -0.25
                 rotation:
                     x: 0
                     y: 0
@@ -952,7 +942,17 @@ Mux 16x1:
                 position:
                     x: -0.5
                     y: 0.5
-                    z: -0.25
+                    z: 0.75
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
+            -
+                length: 0.6
+                position:
+                    x: -0.5
+                    y: 0.5
+                    z: 1.25
                 rotation:
                     x: 0
                     y: 0
@@ -1280,7 +1280,7 @@ Demux 1x4:
                 position:
                     x: -0.5
                     y: 0.5
-                    z: 0.25
+                    z: -0.25
                 rotation:
                     x: 0
                     y: 0
@@ -1290,7 +1290,7 @@ Demux 1x4:
                 position:
                     x: -0.5
                     y: 0.5
-                    z: -0.25
+                    z: 0.25
                 rotation:
                     x: 0
                     y: 0
@@ -1404,7 +1404,7 @@ Demux 1x8:
                 position:
                     x: -0.5
                     y: 0.5
-                    z: 0.333
+                    z: -0.333
                 rotation:
                     x: 0
                     y: 0
@@ -1424,7 +1424,7 @@ Demux 1x8:
                 position:
                     x: -0.5
                     y: 0.5
-                    z: -0.333
+                    z: 0.333
                 rotation:
                     x: 0
                     y: 0
@@ -1578,17 +1578,7 @@ Demux 1x16:
                 position:
                     x: -0.5
                     y: 0.5
-                    z: 1.25
-                rotation:
-                    x: 0
-                    y: 0
-                    z: 90
-            -
-                length: 0.6
-                position:
-                    x: -0.5
-                    y: 0.5
-                    z: 0.75
+                    z: -0.25
                 rotation:
                     x: 0
                     y: 0
@@ -1608,7 +1598,17 @@ Demux 1x16:
                 position:
                     x: -0.5
                     y: 0.5
-                    z: -0.25
+                    z: 0.75
+                rotation:
+                    x: 0
+                    y: 0
+                    z: 90
+            -
+                length: 0.6
+                position:
+                    x: -0.5
+                    y: 0.5
+                    z: 1.25
                 rotation:
                     x: 0
                     y: 0
